@@ -1,0 +1,65 @@
+.buycont{
+    display: grid;
+    grid-template-columns: 16% 80%;
+    gap: 0.3vw;
+    margin: 1%;
+}
+.buycont .buybox:nth-child(1){
+    height: 35%;
+    width: 75%;
+    padding: 3%;
+    border: solid gray 0.1vw;
+}
+.buycont .buybox:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    gap: 12vw;
+}
+.option .done{
+    width: 6vw;
+    height: 1vh;
+}
+.choice{
+    margin: 2%;
+    display: flex;
+    flex-direction: column; 
+    border: solid grey 0.1vw;
+}
+.pay, .opt{
+    margin-left: 2%;
+}
+.choice div{
+    padding: 0.5vw;
+}
+@media (max-width : 650px){
+    .buycont{
+        grid-template-columns: 30% 70%;
+    }
+    .buycont .buybox:nth-child(2){
+        font-size: 1.7vh;
+        gap: 0.1vh;
+    }
+    .buycont .buybox:nth-child(2) a{
+        margin-top: 2vh;
+        font-size: 1.7vh;
+    }
+    .buycont .buybox:nth-child(2) i{
+        font-size: 2.2vh;
+    }
+    .buycont .buybox:nth-child(1){
+        height: 12%;
+        width: 75%;
+    }
+    .choice{
+        font-size: 2vh;
+    }
+    .pay a{
+        font-size: 2.2vh;
+    }
+}

@@ -1,0 +1,47 @@
+p{
+    font-size: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+a:link, a:visited{
+  color: white;
+  text-decoration: none;
+ } 
+button {
+    appearance: none;
+    background: linear-gradient(135deg, #6a5acd, #836fff);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 2vh 0vh 2vh 0vh;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(245, 3, 3, 0.3);
+    text-align: center;
+    width: 27vh;
+  }
+  
+button:hover {
+    background: linear-gradient(135deg, #836fff, #6a5acd);
+    box-shadow: 0 6px 8px rgba(63, 2, 232, 0.2);
+    transform: scale(1.05);
+  }
+  
+button:active {
+    box-shadow: 0 2px 4px rgba(4, 233, 210, 0.2);
+    transform: scale(0.98);
+  }
+@media (max-width : 650px){
+  p, h1{
+    font-size: 3vh;
+  } 
+  button{
+    font-size: 2.4vh;
+    padding: 1vh 0vh 1vh 0vh;
+    width: 52%;
+  } 
+}
+
+ 

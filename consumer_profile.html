@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Profile</title>
+    <link rel="icon" type="image/x-icon" href = "logo.png" >
+    <link rel="stylesheet" href="style_farhome.css">
+    <link rel="stylesheet" href="style_ours2.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_profile.css">
+    <script src="icon_change.js"></script>
+    <script src="profile_page.js"></script>
+</head>
+<body>
+    <header class="head">
+        <img src="logo.png" class="image">
+        <div class="name"> Agri Vida </div>
+    </header>
+    <nav>
+       <div class="address"><a href="consumer_address.html">My address</a></div>
+       <div class="login"><a href="consumer_profile.html">Profile<i class="ri-user-line"></i></a></div>
+       <div class="home"><a href="consumer_home.html">Home<i class="ri-home-3-line"></i></a></div>
+        <div class="extranav">
+            <div class="searchbox">
+                <div class="searbut"><i class="ri-search-line"></i></div>                
+                <input type="text" name="search" id="search" placeholder="Rice, Vegetables, ..."> 
+            </div>     
+        </div>
+        <div class="cart"><a href="consumer_cart.html">Cart<i class="ri-shopping-cart-line"></i></a></div>
+        <div class="language"><a href="">Language<i class="ri-global-line"></i></a></div>
+        <div class="besome"><a href="farmer_home.html">Become a Farmer<i class="ri-group-2-line"></i></a></div>
+    </nav>
+<div class="layout">
+    <div class="col">
+        <div class="name">Hello, Swarup Moulik</div><br>
+        <div><a href="consumer_order.html">My Order <i class="ri-box-3-line"></i></a></div>
+        <div><a href="consumer_cart.html">My Cart <i class="ri-shopping-cart-line"></i></a></div>
+        <div class="tit">Profile Settings <i class="ri-user-line"></i>
+            <ul>
+                <li><a href="" onclick="loadPage('consumer_profin.html'); return false;">Profile Information</a></li>
+                <li><a href="" onclick="loadPage('consumer_add.html'); return false;">Manage Address</a></li>
+            </ul>
+        </div>
+        <div class="tit">Payment Setting <i class="ri-wallet-3-line"></i>
+            <ul>
+                <li><a href="" onclick="loadPage('consumer_upi.html'); return false;">Saved UPI</a></li>
+                <li><a href="" onclick="loadPage('consumer_card.html'); return false;">Saved Cards</a></li>
+            </ul>
+        </div>
+        <div><a href="login_consumer.html">Log Out <i class="ri-shut-down-line"></i></a></div>
+    </div>
+    <div class="info" id="info1">
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+.col{
+    display: flex;
+    flex-direction: column;
+    gap: 0.15vh;   
+    height: 73.5vh;
+}
+.col div{
+    border: solid 0.13vw;
+    padding: 0.2vw;
+    font-size: 2.5vh;
+    background-color: rgb(221, 218, 218);
+}
+.info{
+    border: solid 0.14vw;
+    padding: 0.2vw;
+    height: 80vh;
+    width: 98%;
+}
+.col .name{
+    background-color: rgb(117, 115, 115) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+}
+.layout{
+    grid-template-columns: 13% 85%;
+    column-gap: 1vw;
+}
+.col a{
+    background: transparent;
+    box-shadow: none;
+    font-size: 2.2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(14, 13, 13);
+}
+.col a:hover{
+   background: transparent;
+   box-shadow: none;
+   text-decoration: underline;
+}
+.pdet{
+    border: solid 0.2vw grey;
+    padding: 1vw;
+    font-size: 3vh;
+}
+@media (max-width:650px){
+    .col div{
+        font-size: 2.1vw;
+    }
+    .col a{
+        font-size: 1.7vw;
+    }    
+    ul{
+        margin: 0; 
+        padding-left: 0.5vw;        
+    }
+    .layout{
+        grid-template-columns: 13% 87%;
+    }
+    .heading .adres{
+        width: 10vw;
+    }
+    .pdet{
+        font-size: 2.5vw;
+    }  
+}

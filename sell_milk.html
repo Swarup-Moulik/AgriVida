@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Milk</title>
+    <link rel="icon" type="image/x-icon" href = "logo.png">
+    <link rel="stylesheet" href="style_ours2.css">
+    <link rel="stylesheet" href="style_farsell.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <script src="icon_change.js"></script>
+    <script src="quantity_number.js"></script>
+</head>
+<body>
+    <header class="head">
+        <img src="logo.png" class="image">
+        <div class="name"> Agri Vida </div>
+    </header>
+    <nav>
+       <div class="address"><a href="farmer_address.html">My address</a></div>
+       <div class="login"><a href="farmer_profile.html">Profile<i class="ri-user-line"></i></a></div>
+       <div class="home"><a href="farmer_home.html">Home<i class="ri-home-3-line"></i></a></div>
+        <div class="extranav">
+            <div class="searchbox">
+                <div class="searbut"><i class="ri-search-line"></i></div>                
+                <input type="text" name="search" id="search" placeholder="Rice, Vegetables, ..."> 
+            </div>     
+        </div>
+        <div class="cart"><a href="farmer_cart.html">Cart<i class="ri-shopping-cart-line"></i></a></div>
+        <div class="language"><a href="">Language<i class="ri-global-line"></i></a></div>
+        <div class="besome"><a href="consumer_home.html">Consumer acc<i class="ri-group-2-line"></i></a></div>
+    </nav>
+<div class="layout">
+    <div class="option">
+        <div >
+            <div class="buy">
+                <div class="cat">Buy :-</div>
+                <a href="buy_fertilizer.html">Fertilizer</a>
+                <a href="buy_pesticide.html">Pesticide</a>
+                <a href="buy_seed.html">Seed</a>
+                <a href="buy_equipment.html">Equipment</a>
+                <a href="buy_fodder.html">Fodder</a>
+            </div>
+        </div>
+        <div>
+            <div class="sell">
+                <div class="cat">Sell :-</div>
+                <a href="sell_fruits.html">Fruits</a>
+                <a href="sell_vegetables.html">Vegetables</a>
+                <a href="sell_grains.html">Grains</a>
+                <a href="sell_pulses.html">Pulses</a>
+                <a href="sell_fish.html">Fish</a>
+                <a href="sell_egg.html">Egg</a>
+                <a href="sell_meat.html">Meat</a>    
+                <a href="sell_milk.html">Milk</a>
+                <a href="sell_dairy.html">Dairy</a>          
+            </div> 
+         </div> 
+    </div>
+<div class="container">  
+   <div class="box" id="label"> Your Milk :- </div>
+   <div class="box" id="label2"> Add Your Product </div>
+   <div class="box">
+    <div class="box">
+        <img src="logo.png" alt="product" class="proim">
+        <div class="price">
+            <div>Price :-</div>
+            <div>$100</div>
+        </div>
+        <div class="do">
+            <button class="cat" id="ia1" onclick="increase(1)">Add</button>
+            <div class="quant" id="q1">0</div>
+            <button class="cat" id="fa1" onclick="decrease(1)">Remove</button>
+        </div>
+    </div>
+   </div>
+   <div class="box">
+    <div class="box">
+        <img src="logo.png" alt="product" class="proim">
+        <div class="price">
+            <div>Price :-</div>
+            <div>$100</div>
+        </div>
+        <div class="do">
+            <button class="cat" id="ia2" onclick="increase(2)">Add</button>
+            <div class="quant" id="q2">0</div>
+            <button class="cat" id="fa2" onclick="decrease(2)">Remove</button>
+        </div>
+    </div>
+   </div>
+   <div class="box">
+    <div class="box">
+        <img src="logo.png" alt="product" class="proim">
+        <div class="price">
+            <div>Price :-</div>
+            <div>$100</div>
+        </div>
+        <div class="do">
+            <button class="cat" id="ia3" onclick="increase(3)">Add</button>
+            <div class="quant" id="q3">0</div>
+            <button class="cat" id="fa3" onclick="decrease(3)">Remove</button>
+        </div>
+    </div>
+   </div>
+   <div class="box">
+    <div class="box">
+        <img src="logo.png" alt="product" class="proim">
+        <div class="price">
+            <div>Price :-</div>
+            <div>$100</div>
+        </div>
+        <div class="do">
+            <button class="cat" id="ia4" onclick="increase(4)">Add</button>
+            <div class="quant" id="q4">0</div>
+            <button class="cat" id="fa4" onclick="decrease(4)">Remove</button>
+        </div>
+    </div>
+   </div>
+   <div class="box">
+    <div class="box">
+        <img src="logo.png" alt="product" class="proim">
+        <div class="price">
+            <div>Price :-</div>
+            <div>$100</div>
+        </div>
+        <div class="do">
+            <button class="cat" id="ia5" onclick="increase(5)">Add</button>
+            <div class="quant" id="q5">0</div>
+            <button class="cat" id="fa5" onclick="decrease(5)">Remove</button>
+        </div>
+    </div>
+    </div>     
+</div>
+</body>
+</html>
